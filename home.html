@@ -1,26 +1,36 @@
 <html>
 <head>
     <title>Document</title>
+    <!-- 
+        Internal CSS
+        
+        In Internal CSS, we use "style" html tag to use css in our file. As shown Below
+     -->
+    <style>
+        h4{
+            color: blue
+        }
+    </style>
+
+    <!-- 
+        External CSS
+
+        In external CSS, we use "link" html tag to link our html file to css file, and we add "rel" attribute to define the relation between html and css file, and then 
+        we use "href" attribute to provide the link to the file. As shown below
+     -->
+     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+
     <!-- 
-        Attribute
-        Source = src
-        Width = width
-        height = height
-        pixels = px
-     -->
-    <img src="name.jpg" width="200px" height="500px"> 
+        Inline CSS
+        
+        In inline css, we use "style" html attribute to add css to the tag. As shown below
+    -->
+    <h3 style="color: red">This is a heading</h3>
 
+    <h4>This is a heading four</h4>
 
-    <!-- Assignment -->
-    <!-- 1. Create a folder name it with your name.
-    2. Create an html file name it with your name.
-    3. Copy and Paste your own image from your computer to your root folder and name it with your name.
-    4. Start editing the html file with the basic html structure.
-    5. Start an img tag and add your file.
-    6. Add the width to 300 pixels and 300 pixels height.
-    7. Add an heading with your name.
-    8. Write something about you in a paragraph. -->
+    <h5>This is a heading five</h5>
 </body>
 </html>
